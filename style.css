@@ -1,0 +1,53 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px 32px;
+}
+h1 {
+    font-size: 28px;
+    color: crimson;
+    text-align: center;
+}
+hr {
+    margin: 32px 0;
+}
+
+
+/* Linear Gradient */
+/* background-image: linear-gradient(direction, color1, color2,...); */
+
+.Box {
+    height: 500px;
+    border: 5px solid black;
+    background-image: linear-gradient(to right bottom ,aquamarine, blueviolet);
+}
+
+
+/* Radial Gradient */
+/* background-image: radial-gradient(shape size, color1, color2,...); */
+
+.Box1 {
+    height: 500px;
+    background-image: radial-gradient(aquamarine, blueviolet, purple);
+}
+.Box2{
+    margin: 10px auto;
+    height: 500px;
+    width: 800px;
+    background-image: radial-gradient(circle, red, yellow, green);
+}
+
+
+/* conic gradient */
+
+.Box3 {
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    background-image: conic-gradient(green, yellow, red, blue, black);
+    border-radius: 50%;
+}
